@@ -33,7 +33,7 @@ python manage.py populate_db # Para pré-popular o banco de dados com dados inic
 |  /cartorios |  GET |  Retorna lista de cartórios paginadas de 50 em 50 |
 |  /cartorios/{uf} |  GET |  Retorna a lista de cartórios da UF paginadas de 50 em 50 |
 |  /cartorios/{id} |  GET |  Retorna os detalhes de um cartório |
-|  /cartórios |  POST |  Adiciona um novo cartório à base de dados |
-|  /cartorios{id} |  PUT |  Atualização completa de um cartório |
-|  /cartorios{id} |  PATCH |  Atualização Parcial de um cartório |
-|  /cartorios{id} |  DELETE |  Remove um cartório da base de dados |
+|  /cartorios |  POST |  Adiciona um novo cartório à base de dados |
+|  /cartorios/{id} |  PUT |  Atualização completa de um cartório |
+|  /cartorios/{id} |  PATCH |  Atualização Parcial de um cartório |
+|  /cartorios/{id} |  DELETE |  Remove um cartório da base de dados |
