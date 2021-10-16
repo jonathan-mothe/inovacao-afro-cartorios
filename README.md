@@ -27,6 +27,7 @@ python manage.py populate_db # Para pré-popular o banco de dados com dados inic
 
 1. Registre os modelos **cartorios**, **adressess** e **contact_information** no Django Admin
 2. Implemente os seguintes endpoints:
+
 | Endpoint  |  Método  |  Ação  |
 | ------------------- | ------------------- | ------------------- |
 |  /cartorios |  GET |  Retorna lista de cartórios paginadas de 50 em 50 |
