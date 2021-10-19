@@ -20,13 +20,13 @@ docker-compose run --rm app python manage.py populate_db # Para pré-popular o b
 4. Na raiz do projeto, execute os segintes comandos:
 ```shell
 python manage.py createsuperuser # Para criar um superusuário
-python manage.py populate_db # Para pré-popular o banco de dados com dados iniciais de cartórios Brasileiros
 ```
 
 ### Desafio
 
 1. Registre os modelos **cartorios**, **adressess** e **contact_information** no Django Admin
-2. Implemente os seguintes endpoints:
+2. Implemente o comando `populate_db`, lembre-se. Este comando tem a finalidade de carregar os dados do arquivo .csv e popular as tabelas no banco de dados. Caso tenham dúvidas, implementamos algo muito semelhante em uma das aulas de sábado, dia 09/10/21.
+3. Implemente os seguintes endpoints:
 
 | Endpoint  |  Método  |  Ação  |
 | ------------------- | ------------------- | ------------------- |
